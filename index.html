@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Scaramanzia — Low-poly 3D characters for Unity</title>
+<meta name="description" content="Scaramanzia makes lightweight, animated low-poly 3D characters for indie games and prototypes. Slime Pack for Unity URP.">
+<meta property="og:title" content="Scaramanzia — Low-poly 3D characters for Unity">
+<meta property="og:image" content="img/Store_Cover_1950x1300.png">
+<style>
+:root{--bg:#f6f8f7;--ink:#14231f;--muted:#55665f;--card:#ffffff;--line:#dfe7e3;--accent:#2f9e74;--accent-ink:#ffffff}
+@media (prefers-color-scheme:dark){:root{--bg:#0f1714;--ink:#e8f1ed;--muted:#9bb0a7;--card:#16211d;--line:#26362f;--accent:#4cc79a;--accent-ink:#0b1a14}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+a{color:var(--accent)}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+header{padding:20px 0;border-bottom:1px solid var(--line)}
+header .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px}
+.brand{display:flex;align-items:center;gap:12px;font-weight:700;font-size:20px;color:var(--ink);text-decoration:none}
+.brand img{width:44px;height:44px;border-radius:50%}
+nav a{margin-left:18px;color:var(--muted);text-decoration:none;font-size:15px}
+nav a:hover{color:var(--ink)}
+.hero{padding:56px 0 40px;display:grid;grid-template-columns:1.05fr 1fr;gap:36px;align-items:center}
+.hero h1{font-size:clamp(30px,5vw,46px);line-height:1.12;margin:0 0 14px}
+.hero p{color:var(--muted);margin:0 0 22px;font-size:18px}
+.btn{display:inline-block;background:var(--accent);color:var(--accent-ink);padding:11px 20px;border-radius:10px;font-weight:600;text-decoration:none;margin-right:10px}
+.btn.alt{background:transparent;color:var(--ink);border:1px solid var(--line)}
+.hero img{width:100%;border-radius:16px;border:1px solid var(--line)}
+section{padding:36px 0}
+h2{font-size:26px;margin:0 0 6px}
+.sub{color:var(--muted);margin:0 0 22px}
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:0 0 26px}
+.fact{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+.fact b{display:block;font-size:24px}
+.fact span{color:var(--muted);font-size:14px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px}
+.grid img{width:100%;border-radius:12px;border:1px solid var(--line);display:block}
+.video{position:relative;padding-top:56.25%;border-radius:14px;overflow:hidden;border:1px solid var(--line)}
+.video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.contact{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:26px}
+footer{padding:28px 0 44px;color:var(--muted);font-size:14px;border-top:1px solid var(--line);margin-top:20px}
+@media(max-width:760px){.hero{grid-template-columns:1fr;padding-top:32px}nav a{margin-left:12px}}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <a class="brand" href="#top"><img src="img/Avatar_Scaramanzia_800.png" alt="Scaramanzia logo"> Scaramanzia</a>
+  <nav><a href="#work">Work</a><a href="#video">Video</a><a href="#contact">Contact</a></nav>
+</div></header>
+
+<main id="top">
+<div class="wrap">
+  <div class="hero">
+    <div>
+      <h1>Stylized low-poly characters for Unity</h1>
+      <p>Scaramanzia makes lightweight, animated 3D characters for indie games and prototypes. Built for URP, tested on clean projects, documented and ready to drop into a scene.</p>
+      <a class="btn" href="#work">See the Slime Pack</a><a class="btn alt" href="#contact">Get in touch</a>
+    </div>
+    <img src="img/Store_Cover_1950x1300.png" alt="Slime Pack cover: jelly slimes with hats">
+  </div>
+
+  <section id="work">
+    <h2>Slime Pack</h2>
+    <p class="sub">Low-poly animated jelly characters for Unity (URP).</p>
+    <div class="facts">
+      <div class="fact"><b>10</b><span>jelly colors</span></div>
+      <div class="fact"><b>9</b><span>swappable hats</span></div>
+      <div class="fact"><b>10</b><span>animations</span></div>
+      <div class="fact"><b>URP</b><span>Unity 2022.3 and Unity 6</span></div>
+    </div>
+    <div class="grid">
+      <img src="img/Store_Shot_Colors.png" alt="The ten jelly colors" loading="lazy">
+      <img src="img/Store_Shot_Hats.png" alt="The nine hats" loading="lazy">
+      <img src="img/Store_Shot_Animations.png" alt="The ten animations" loading="lazy">
+      <img src="img/Store_Shot_Turnaround.png" alt="Turnaround of the model" loading="lazy">
+      <img src="img/Store_Shot_Poses.png" alt="Poses" loading="lazy">
+    </div>
+  </section>
+
+  <section id="video">
+    <h2>Promo video</h2>
+    <p class="sub">All colors, hats and animations in action.</p>
+    <div class="video"><iframe src="https://www.youtube.com/embed/NCf2TfjfW0Q" title="Slime Pack promo video" allowfullscreen loading="lazy"></iframe></div>
+  </section>
+
+  <section id="contact">
+    <div class="contact">
+      <h2>Contact</h2>
+      <p class="sub">Questions, support or custom requests.</p>
+      <p>Email: <a href="mailto:scaramanzia.models@gmail.com">scaramanzia.models@gmail.com</a><br>
+      YouTube: <a href="https://www.youtube.com/@Scaramanzia.Models">Scaramanzia.Models</a></p>
+    </div>
+  </section>
+</div>
+</main>
+<footer><div class="wrap">&copy; 2026 Scaramanzia. All rights reserved.</div></footer>
+</body>
+</html>
